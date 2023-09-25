@@ -1,0 +1,86 @@
+{
+    "pe01": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.1",
+        "sr_index_ipv4": "1",
+        "sr_index_ipv6": "1001",
+        "protocol": "isis"
+    },
+    "pe02": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.2",
+        "sr_index_ipv4": "2",
+        "sr_index_ipv6": "1002",
+        "protocol": "isis"
+    },
+    "p01": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.3",
+        "sr_index_ipv4": "3",
+        "sr_index_ipv6": "1003",
+        "protocol": "isis"
+    },
+    "p02": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.4",
+        "sr_index_ipv4": "4",
+        "sr_index_ipv6": "1004",
+        "protocol": "isis"
+    },
+    "p03": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.5",
+        "sr_index_ipv4": "5",
+        "sr_index_ipv6": "1005",
+        "protocol": "isis"
+    },
+    "p04": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.6",
+        "sr_index_ipv4": "6",
+        "sr_index_ipv6": "1006",
+        "protocol": "isis"
+    },
+    "pe03": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.7",
+        "sr_index_ipv4": "7",
+        "sr_index_ipv6": "1007",
+        "protocol": "isis"
+    },
+    "pe04": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.8",
+        "sr_index_ipv4": "8",
+        "sr_index_ipv6": "1008",
+        "protocol": "isis"
+    },
+    "asbr01": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.9",
+        "sr_index_ipv4": "9",
+        "sr_index_ipv6": "1009",
+        "protocol": "isis"
+    },
+    "asbr02": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.10",
+        "sr_index_ipv4": "10",
+        "sr_index_ipv6": "1010",
+        "protocol": "isis"
+    },
+    "rrpce01": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.11",
+        "sr_index_ipv4": "11",
+        "sr_index_ipv6": "1010",
+        "protocol": "isis"
+    },
+    "rrpce02": {
+        "loopback_id": "0",
+        "loopback_ipv4": "10.31.1.12",
+        "sr_index_ipv4": "12",
+        "sr_index_ipv6": "1012",
+        "protocol": "isis"
+    }
+}
