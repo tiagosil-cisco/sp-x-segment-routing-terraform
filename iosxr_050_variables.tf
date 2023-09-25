@@ -3,7 +3,7 @@ locals {
   project_description = "Topology created using Terraform to represent SP-X"
   routers             = jsondecode(file("${path.module}/sp-x-devices.json"))
   sr_config_general   = jsondecode(file("${path.module}/sp-x-sr-general-config-variable.json"))
-    isis_interfaces   = jsondecode(file("${path.module}/sp-x-isis-interfaces-variable.json"))
+  isis_interfaces     = jsondecode(file("${path.module}/sp-x-isis-interfaces-variable.json"))
 
 
   xr_username = "admin"

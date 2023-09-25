@@ -1,8 +1,8 @@
 
 
 resource "iosxr_router_isis_interface_address_family" "ipv4_ti_lfa" {
-  depends_on = [ iosxr_router_isis_address_family.sr_isis_ipv4 ]
-delete_mode = "attributes"
+  depends_on  = [iosxr_router_isis_address_family.sr_isis_ipv4]
+  delete_mode = "attributes"
   for_each = {
     for key, value in local.isis_interfaces :
     key => value if value.address_family_ipv4 == "true" && value.interface_id != "Loopback0"
@@ -26,9 +26,9 @@ delete_mode = "attributes"
 
 
 resource "iosxr_router_isis_interface_address_family" "ipv6_ti_lfa" {
-    depends_on = [ iosxr_router_isis_address_family.sr_isis_ipv6 ]
+  depends_on = [iosxr_router_isis_address_family.sr_isis_ipv6]
 
-delete_mode = "attributes"
+  delete_mode = "attributes"
   for_each = {
     for key, value in local.isis_interfaces :
     key => value if value.address_family_ipv6 == "true" && value.interface_id != "Loopback0"
